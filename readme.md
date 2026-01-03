@@ -1,4 +1,4 @@
-# Scott Lewis - Portfolio Website
+# Scott Lewis (My Professional Website)
 
 A modern, responsive portfolio website showcasing expertise in bioinformatics, computational biology, and data science.
 
@@ -12,11 +12,11 @@ A modern, responsive portfolio website showcasing expertise in bioinformatics, c
   - About Me with professional summary and skills
   - Research publications with categorized projects
   - Professional experience timeline
-  - Contact information with social links
+  - Contact information with socials
 
 ## Deployment
 
-This website is designed for **GitHub Pages** and requires no build process or dependencies.
+This website is designed to work seamlessly **GitHub Pages** and requires no build process or dependencies.
 
 ### Quick Setup
 
