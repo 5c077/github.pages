@@ -231,6 +231,10 @@ h2::after {
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: opacity 0.3s, transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    color: inherit;
+    display: block; 
+    cursor: pointer;  
 }
 
 .project-card:hover {
