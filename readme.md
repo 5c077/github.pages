@@ -81,6 +81,6 @@ Works on all modern browsers including:
 
 ## Contact
 
-- Email: scottlewis7@gmail.com
-- LinkedIn: [linkedin.com/in/scott-lewis-b944a72a](https://linkedin.com/in/scott-lewis-b944a72a)
-- GitHub: [github.com/stlewis](https://github.com/stlewis)
+- Email: ScottLewisPhD@gmail.com
+- LinkedIn: [linkedin.com/in/scott-lewis-0ab669290/](https://linkedin.com/in/scott-lewis-0ab669290/)
+- GitHub: [github.com/5c077](https://github.com/5c077)
