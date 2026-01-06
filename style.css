@@ -137,17 +137,20 @@ h2::after {
     align-items: start;
 }
 
-/* .headshot {
-    width: auto;
-    aspect-ratio: 1;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-    overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
-}*/
+.img{
+    border: 0px transparent rgb(0, 0, 0);
+}
+
+.image{ 
+    max-width: 102%;
+    max-height: 102%;
+    display: block;
+    margin: auto;
+    padding: 0rem;
+    border-radius: 0px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
 .headshot {
     width: 100%;
     aspect-ratio: 1;
