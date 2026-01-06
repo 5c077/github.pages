@@ -1,5 +1,4 @@
 # Portfolio Website
-Author: Scott Lewis, Ph.D. 
 
 A modern, responsive portfolio website showcasing expertise in bioinformatics, computational biology, and data science.
 
