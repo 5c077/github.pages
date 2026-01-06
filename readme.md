@@ -21,21 +21,21 @@ This website is designed to work seamlessly **GitHub Pages** and requires no bui
 ### Quick Setup
 
 1. Clone or download this repository
-2. Ensure the main file is named `index.html`
-3. Add your headshot image to the repository
+2. Ensure main file is named `index.html`
+3. Add headshot image to the repository
 4. Update the image path in the HTML:
    ```html
    <div class="headshot">
-       <img src="your-photo.jpg" alt="Scott Lewis" style="width: 100%; height: 100%; object-fit: cover;">
+       <img src="photo.jpg" alt="Scott Lewis" style="width: 100%; height: 100%; object-fit: cover;">
    </div>
    ```
 5. Enable GitHub Pages in repository settings (Settings → Pages → Source: main branch)
-6. Your site will be live at `https://yourusername.github.io/repository-name/`
+6. The site will then be live at `https://yourusername.github.io/repository-name/`
 
 ## Customization
 
 ### Colors
-Modify the color scheme by editing CSS variables in the `:root` section:
+The color scheme can easily be modified by editing CSS variables in the `:root` section:
 ```css
 :root {
     --primary: #2c3e50;
@@ -53,7 +53,7 @@ Modify the color scheme by editing CSS variables in the `:root` section:
 - **Contact Links**: Update email, LinkedIn, and GitHub URLs in the `#contact` section
 
 ### Project Images
-Replace emoji placeholders with actual images:
+Decorate project cards with relevant images:
 ```html
 <div class="project-image">
     <img src="project-image.jpg" alt="Project Name" style="width: 100%; height: 100%; object-fit: cover;">
