@@ -20,17 +20,16 @@ This website is designed to work seamlessly **GitHub Pages** and requires no ind
 
 ### Quick Setup
 
-1. Clone or download this repository
-2. Ensure main file is named `index.html`
-3. Add headshot image to the repository
-4. Update the image path in the HTML:
+1. Ensure main file is named `index.html`
+2. Add headshot image to the repository
+3. Update the image path in the HTML:
    ```html
    <div class="headshot">
        <img src="photo.jpg" alt="Scott Lewis" style="width: 100%; height: 100%; object-fit: cover;">
    </div>
    ```
-5. Enable GitHub Pages in repository settings (Settings → Pages → Source: main branch)
-6. The site will then be live at `https://yourusername.github.io/repository-name/`
+4. Enable GitHub Pages in repository settings (Settings → Pages → Source: main branch)
+5. The site will then be live at `https://yourusername.github.io/repository-name/`
 
 ## Customization
 
