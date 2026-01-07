@@ -77,4 +77,4 @@ Works on all modern browsers including:
 
 ## License
 
-© 2025 Scott Lewis. All rights reserved.
+© 2026 Scott Lewis. All rights reserved.
