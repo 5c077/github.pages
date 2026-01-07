@@ -386,6 +386,16 @@ footer {
     text-align: center;
     padding: 2rem;
 }
+footer a {
+color: #8b949e;
+text-decoration: none;
+transition: color 0.3s;
+}
+
+footer a:hover {
+    color: var(--secondary);
+    text-decoration: underline;
+}
 
 /* Animations */
 @keyframes fadeInUp {
@@ -430,4 +440,5 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
 }
