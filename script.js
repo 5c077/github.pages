@@ -43,7 +43,7 @@ projectCards.forEach(card => {
                     }
                 });
             }
-        }, 1500);
+        }, 1200);
     });
     
     card.addEventListener('mouseleave', function() {
@@ -52,17 +52,17 @@ projectCards.forEach(card => {
         });
     });
 });
-        // Add this to your existing script section
+
 document.getElementById('email-link').addEventListener('click', function(e) {
     e.preventDefault();
     const user = 'ScottLewisPhD';
-    const d = 'decoy'
+    const user_ = 'decoy'
     const domain = 'gmail.com';
     window.location.href = 'mailto:' + user + '@' + domain;
 });
 document.getElementById('linkedin-link').addEventListener('click', function(e) {
     e.preventDefault();
-    const d = 'decoy';
+    const name_ = 'decoy';
     const name = 'scott-lewis';
     const hash = '0ab669290' 
     window.open('https://www.linkedin.com/in/' + name + '-'+ hash + '/', '_blank');
