@@ -16,7 +16,7 @@ A modern, responsive portfolio website showcasing expertise in bioinformatics, c
 
 ## Deployment
 
-This website is designed to work seamlessly **GitHub Pages** and requires no build process or dependencies.
+This website is designed to work seamlessly **GitHub Pages** and requires no independent build process or dependencies.
 
 ### Quick Setup
 
