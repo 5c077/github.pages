@@ -29,30 +29,6 @@ window.addEventListener('scroll', () => {
     
     lastScroll = currentScroll;
 });
-        // Focus fade effect for project cards
-const projectsGrid = document.querySelector('.projects-grid');
-const projectCards = document.querySelectorAll('.project-card');
-
-projectCards.forEach(card => {
-    card.addEventListener('mouseenter', function() {
-        setTimeout(() => {
-            if (this.matches(':hover')) {
-                projectCards.forEach(otherCard => {
-                    if (otherCard !== this) {
-                        otherCard.style.opacity = '0.6';
-                    }
-                });
-            }
-        }, 1200);
-    });
-    
-    card.addEventListener('mouseleave', function() {
-        projectCards.forEach(otherCard => {
-            otherCard.style.opacity = '1';
-        });
-    });
-});
-
 document.getElementById('email-link').addEventListener('click', function(e) {
     e.preventDefault();
     if (typeof gtag !== 'undefined') {
@@ -86,4 +62,28 @@ document.getElementById('github-link').addEventListener('click', function(e) {
     });}
     const username = '5c077';
     window.open('https://github.com/' + username, '_blank');
+});
+
+// Focus fade effect for project cards
+const projectsGrid = document.querySelector('.projects-grid');
+const projectCards = document.querySelectorAll('.project-card');
+
+projectCards.forEach(card => {
+    card.addEventListener('mouseenter', function() {
+        setTimeout(() => {
+            if (this.matches(':hover')) {
+                projectCards.forEach(otherCard => {
+                    if (otherCard !== this) {
+                        otherCard.style.opacity = '0.6';
+                    }
+                });
+            }
+        }, 1200);
+    });
+    
+    card.addEventListener('mouseleave', function() {
+        projectCards.forEach(otherCard => {
+            otherCard.style.opacity = '1';
+        });
+    });
 });
