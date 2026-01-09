@@ -28,12 +28,21 @@ window.addEventListener('scroll', () => {
     
     lastScroll = currentScroll;
 });
+
+function W8Gtag(callback) {
+    if (typeof gtag !== 'undefined') {
+        callback();
+    } else {
+        setTimeout(() => waitForGtag(callback), 100);
+    }
+}
+
 document.getElementById('email-link').addEventListener('click', function(e) {
     e.preventDefault();
     if (typeof gtag !== 'undefined') {
-    gtag('event', 'contact', {
+    gtag('event', 'email_c', {
         'event_category': 'engagement',
-        'event_label': 'email_c'
+        'event_label': 'email'
     });}
     const user = 'ScottLewisPhD';
     const user_ = '0ab669291267'
@@ -43,9 +52,9 @@ document.getElementById('email-link').addEventListener('click', function(e) {
 document.getElementById('linkedin-link').addEventListener('click', function(e) {
     e.preventDefault();
         if (typeof gtag !== 'undefined') {
-    gtag('event', 'contact', {
+    gtag('event', 'linkedin_c', {
         'event_category': 'engagement',
-        'event_label': 'linkedin_c'
+        'event_label': 'linkedin'
     });}
     const name_ = '0ab669291267';
     const name = 'scott-lewis';
@@ -55,9 +64,9 @@ document.getElementById('linkedin-link').addEventListener('click', function(e) {
 document.getElementById('github-link').addEventListener('click', function(e) {
     e.preventDefault();
         if (typeof gtag !== 'undefined') {
-    gtag('event', 'contact', {
+    gtag('event', 'github_c', {
         'event_category': 'engagement',
-        'event_label': 'github_c'
+        'event_label': 'github'
     });}
     const username = '5c077';
     window.open('https://github.com/' + username, '_blank');
