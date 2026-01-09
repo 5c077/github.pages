@@ -36,7 +36,6 @@ function W8Gtag(callback) {
         setTimeout(() => waitForGtag(callback), 100);
     }
 }
-
 document.getElementById('email-link').addEventListener('click', function(e) {
     e.preventDefault();
     if (typeof gtag !== 'undefined') {
